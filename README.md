@@ -23,7 +23,6 @@ Elsa Studio is a modular, extensible application framework built with MudBlazor 
 
 1. **Clone the repository**: `git clone https://github.com/elsa-workflows/elsa-studio.git`
 2. **Navigate to the project directory**: `cd elsa-studio`
-3. **Install node modules in directories**: `src\framework\Elsa.Studio.DomInterop\ClientLib` and `src\modules\Elsa.Studio.Workflows.Designer\ClientLib`
    
 ## Before you build
 

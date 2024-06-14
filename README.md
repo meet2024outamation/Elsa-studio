@@ -23,7 +23,8 @@ Elsa Studio is a modular, extensible application framework built with MudBlazor 
 
 1. **Clone the repository**: `git clone https://github.com/elsa-workflows/elsa-studio.git`
 2. **Navigate to the project directory**: `cd elsa-studio`
-
+3. **Install node modules in directories**: `src\framework\Elsa.Studio.DomInterop\ClientLib` and `src\modules\Elsa.Studio.Workflows.Designer\ClientLib`
+   
 ## Before you build
 
 There are some assets that require `NPM` to build the assets prior to the project building. These have been configured to use an MSBUILD pre-build step and should not require any extra
@@ -44,3 +45,5 @@ steps but should you run into any issues or want to build these ahead of time, t
 1. **For Blazor Server WASM**: `dotnet run --project .\src\hosts\Elsa.Studio.Host.Wasm\Elsa.Studio.Host.Wasm.csproj --framework net8.0`
 
 Explore the [Elsa Studio GitHub repository](https://github.com/elsa-workflows/elsa-studio) for more detailed information.
+
+

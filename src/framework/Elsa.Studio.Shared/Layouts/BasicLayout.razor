@@ -3,10 +3,10 @@
 @implements IDisposable
 @inject IThemeService ThemeService
 
-<MudThemeProvider Theme="CurrentTheme" IsDarkMode="@true"/>
+<MudThemeProvider Theme="CurrentTheme" IsDarkMode="@false"/>
 <MudSnackbarProvider/>
 
-<MudLayout>
+<MudLayout Style="background-color:white">
     @Body
 </MudLayout>
 
